@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=OpenSans&display=swap');
+
+body{
+    background-color: hsl(257, 40%, 49%);
+   background-attachment: fixed ;
+    background-repeat: no-repeat;
+    
+    font-family: 'Poppins';
+}
+header{
+    margin: auto;
+    padding: 15px 40px;
+}
+.logo{
+    width: 170px;
+}
+main{
+    color: white;
+    margin: auto;
+    padding:  30px 40px;
+    display: flex;
+}
+.content{
+    font-size: 23px;
+    
+}
+.title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.description{
+    font-family:'OpenSans',
+        sans-serif;;
+    font-weight: 400;
+}
+button{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    border-radius: 400px;
+    border: 0;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.479);
+    padding: 15px 100px;
+    
+}
+button:hover{
+    transition: 0.2s ease;
+    color: white;
+    background:hsl(300, 69%, 71%);
+}
+footer{
+    padding:  50px ;
+    display: flex;
+    
+    align-items: center;
+}
+.icon{
+    margin: 0 10px;
+    border-radius: 50%;
+   display: flex;
+    justify-content: center;
+        align-items: center;
+   width:40px;
+   height: 40px;
+   border: 2px solid white;
+   
+}
+.icon i{
+   
+    color: white;
+}
+.icon:hover i{
+    color: hsl(300, 69%, 71%);
+}
+.icon:hover {
+    border-color: hsl(300, 69%, 71%);
+}
+@media screen and (max-width: 1439px) {
+    body{
+    background-size:100vw auto ;
+        background-image: url(../images/bg-mobile.svg);
+    }
+    header{
+        max-width: 600px;
+    }
+    main{
+        max-width:600px;
+flex-direction: column;
+
+    }
+    .content{
+        text-align: center;
+    }
+    footer{
+        justify-content: center;
+    }
+    
+}
+@media screen and (min-width: 1439px) {
+    body {
+margin: 70px 70px;
+background-size:  auto 100vh;
+        background-image: url(../images/bg-desktop.svg);
+    }
+         .content {
+             text-align: left;
+             padding-left:60px ;
+         }
+                 main {
+                     flex-direction: row;
+                 }
+               
+                 
+footer {
+    justify-content: right;
+}
+}
