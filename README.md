@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/NguyenVanKhoa-CDTH19PMC/huddle-landing-page.git](https://github.com/NguyenVanKhoa-CDTH19PMC/huddle-landing-page.git)
+- Live Site URL: [https://nguyenvankhoa-cdth19pmc.github.io/huddle-landing-page/](https://nguyenvankhoa-cdth19pmc.github.io/huddle-landing-page/)
 
 ## My process
 
@@ -73,5 +73,5 @@ Improve HTML, CSS and JavaScript skills
 
 ## Author
 
-- Frontend Mentor - @NguyenVanKhoa-CDTH19PMC (https://www.frontendmentor.io/profile/NguyenVanKhoa-CDTH19PMC)
-- Github - NguyenVanKhoa-CDTH19PMC (https://github.com/NguyenVanKhoa-CDTH19PMC)
+- Frontend Mentor - [@NguyenVanKhoa-CDTH19PMC] (https://www.frontendmentor.io/profile/NguyenVanKhoa-CDTH19PMC)
+- Github - [NguyenVanKhoa-CDTH19PMC] (https://github.com/NguyenVanKhoa-CDTH19PMC)
